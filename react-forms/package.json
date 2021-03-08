@@ -1,0 +1,25 @@
+{
+  "name": "react-forms",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve ./src/index.html",
+    "build": "rm -rf dist && parcel build ./src/about/index.tsx ./src/contact/index.tsx"
+  },
+  "browserslist": "> 0.2%",
+  "keywords": [],
+  "author": "Johan Otterud",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-particles-js": "^3.4.1",
+    "react-tsparticles": "^1.18.12"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  }
+}
